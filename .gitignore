@@ -3,6 +3,10 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# Ignorar configuraciones locales y secretos
+# Ignorar archivos de configuración en cualquier nivel
+**/appsettings.json
+**/appsettings.Development.json
 # User-specific files
 *.rsuser
 *.suo
