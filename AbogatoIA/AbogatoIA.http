@@ -1,0 +1,6 @@
+@AbogatoIA_HostAddress = http://localhost:5063
+
+GET {{AbogatoIA_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
